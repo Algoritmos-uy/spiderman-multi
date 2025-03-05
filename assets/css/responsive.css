@@ -1,0 +1,65 @@
+
+/* Media queries */
+@media  (min-width: 360px) and (max-width: 1024px) {
+
+  .s-menu{
+      width: 100%;
+  }
+  
+  .s-menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+  }
+
+  .s-menu__item a {
+    padding: 0;
+    font-size: 12px;
+    margin: 2px;
+    
+  }
+
+  .s-container {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 20rem;
+  }
+
+  .s-cards-carousel {
+    flex-direction: column;
+    
+  }
+
+  .s-card {
+    width: 130;
+    height:280px;
+    margin-top: .2rem ;
+  }
+
+  .s-card__background {
+    
+    background-position: top center; 
+
+  }
+
+  .s-card__title {
+    font-size: 1rem;
+  }
+
+  .s-controller {
+    flex-direction: column;
+  }
+
+  .s-controller__button {
+    margin: 5px 0;
+  }
+
+  .s-controller__line {
+    width: 50px;
+  }
+
+
+}
